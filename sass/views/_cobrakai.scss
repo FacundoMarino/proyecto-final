@@ -1,0 +1,35 @@
+
+
+.picture__sensei {
+    
+    img{
+        border-radius: 80px;   
+    }
+}
+
+.picture__sensei{
+    flex-wrap: wrap;
+    width: 100%;    
+    padding: 30px;    
+}
+
+.picture__text{
+    flex-wrap: wrap;    
+    text-align: center;
+    font-size: 1.9em;
+    color: $cobra-color;
+}
+
+div{
+    img{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+.grid-dojo{
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+}

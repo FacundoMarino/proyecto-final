@@ -1,0 +1,40 @@
+.card{
+    width: 400px;
+    border: $principal-color solid 2px;
+    text-align: center;
+    font-size: 1.9em;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+#cobra__card:hover{
+    border: $cobra-color solid 2px;
+    transform: scale(1.10); 
+}
+
+#miyagi__card:hover{
+    border: orange solid 2px;
+    transform: scale(1.10); 
+}
+
+#eagle__card:hover{
+    border: $background-eagle solid 2px;
+    transform: scale(1.10); 
+}
+
+.card__img{
+    align-items: center;
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+}
+
+
+div{
+    h3{
+        font-size: 1.9em;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+}

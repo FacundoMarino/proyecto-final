@@ -1,0 +1,39 @@
+nav{
+    font-size: 1.2em;
+    overflow: hidden;
+
+        a{
+            text-decoration: none;
+            color: $principal-color; 
+            
+                &:hover{
+                    color: white;
+                     transform: scale(1.5);
+                }
+                
+                
+        }
+
+        #cobra:hover{
+            color: $cobra-color;
+            transform: scale(1.5);
+        }
+    
+        #miyagi:hover{
+            color: orange;
+            transform: scale(1.5);
+        }
+    
+        #eagle:hover{
+            color: $background-eagle;
+            transform: scale(1.5);
+        }
+
+        .miyagi:hover{
+            color:black;
+            font-weight: bold;            
+            -webkit-text-stroke-width: 0.5px; 
+        }
+}
+
+
