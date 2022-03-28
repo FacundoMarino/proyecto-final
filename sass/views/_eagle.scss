@@ -1,5 +1,5 @@
 .eagle{
-    background-color: $background-eagle;
-    color: white;
+    background-color: map-get($colors-eagle, background);
+    color: map-get($colors-eagle, font-color);
     font-weight: bold;
 }

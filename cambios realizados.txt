@@ -1,0 +1,10 @@
+Se agregó un maps con todos los colores, de todas las páginas y las medidas de las fonts en todos los documentos.
+
+Map creado en variables
+
+En home.scss se creó un extend para el card_radius con el card__img
+
+Se creó el mixin en global.scss para con la clase flex usada en el home y el footer.
+
+
+Para el SEO se agregaron las keywords, desciption de home y se corrigió semantica en los h3 reemplazados por h2 en todos los documentos

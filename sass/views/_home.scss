@@ -1,15 +1,14 @@
 .card{
     width: 400px;
     border: $principal-color solid 2px;
-    text-align: center;
-    font-size: 1.9em;
+    text-align: center;    
     padding: 30px;
     margin: 20px;
 
 }
 
 #cobra__card:hover{
-    border: $cobra-color solid 2px;
+    border: map-get($colors-cobra, font-color) solid 2px;
     transform: scale(1.10); 
 }
 
@@ -19,22 +18,29 @@
 }
 
 #eagle__card:hover{
-    border: $background-eagle solid 2px;
+    border: map-get($colors-eagle, background) solid 2px;
     transform: scale(1.10); 
 }
 
-.card__img{
-    align-items: center;
+.card__radius{
     border-radius: 80px;
     width: 150px;
     height: 150px;
 }
+.card__img{
+    @extend .card__radius;
+    align-items: center;    
+}
 
+
+.flex{
+    @include flex(flex, wrap,space-around,30px);
+}
 
 div{
-    h3{
-        font-size: 1.9em;
+    h2{        
         text-align: center;
         letter-spacing: 5px;
+        padding: 20px;
     }
 }

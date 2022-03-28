@@ -1,9 +1,31 @@
 /*Variables*/
 
 $principal-color: #eeecec;
-$cobra-color: yellow;
-$miyagi-color: black;
-$background-eagle: #c21c1a;
-$background-miyagi: white;
 $background: black;
 
+$colors-miyagi:(
+    background: white,
+    font-color: black
+);
+
+$colors-cobra:(
+    background: black,
+    font-color: yellow
+);
+
+$colors-eagle: (
+    background: #c21c1a,
+    font-color: white,
+);
+
+$fontSizes:(
+    title: 2.5em,
+    xlarge: 2.1em,
+    large: 1.9em,
+);
+
+@each $var, $val in $fontSizes {
+    .fontSizes--#{$var} {
+        font-size: #{$val};
+    }
+}

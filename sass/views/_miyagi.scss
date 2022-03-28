@@ -1,6 +1,6 @@
 .miyagi{
-    background-color: $background-miyagi;
-    color: $miyagi-color;
+    background-color: map-get($colors-miyagi, background);
+    color: map-get($colors-miyagi, font-color);
     font-weight: bold;
     
 }
