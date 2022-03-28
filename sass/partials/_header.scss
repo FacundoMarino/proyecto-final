@@ -25,7 +25,7 @@ nav{
         }
     
         #eagle:hover{
-            color: map-get($colors-eagle, font-color);
+            color: map-get($colors-eagle, background);
             transform: scale(1.5);
         }
 

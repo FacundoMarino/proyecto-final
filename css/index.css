@@ -77,7 +77,7 @@ nav {
     color: orange;
     transform: scale(1.5); }
   nav #eagle:hover {
-    color: white;
+    color: #c21c1a;
     transform: scale(1.5); }
   nav .miyagi:hover {
     color: black;
