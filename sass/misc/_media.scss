@@ -1,5 +1,6 @@
 
 $breakpoint-tablet: 768px;
+$breakpoint-cel: 425px;
 
 
 @media screen and (max-width: $breakpoint-tablet) {
@@ -19,4 +20,14 @@ $breakpoint-tablet: 768px;
         grid-row: 4/5;
     }
 
+}
+
+@media screen and (max-width: $breakpoint-cel){
+article{
+        div{
+            p{
+                font-size: 1.4em;
+            }
+        }
+    }
 }

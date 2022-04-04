@@ -176,3 +176,7 @@ div h2 {
     grid-row: 3/4; }
   .text__1 {
     grid-row: 4/5; } }
+
+@media screen and (max-width: 425px) {
+  article div p {
+    font-size: 1.4em; } }
